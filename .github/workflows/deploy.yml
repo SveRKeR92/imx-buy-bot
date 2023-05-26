@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           host: ${{ secrets.SSH_HOST }}
           key: ${{ secrets.SSH_KEY }}
-          script: cd /home/sverker/imx-buy-bot && git pull origin main && nvm use 14 && yarn && pm2 restart buy-imx
+          script: cd /home/sverker/imx-buy-bot && git pull origin master && nvm use 14 && yarn && pm2 restart buy-imx
