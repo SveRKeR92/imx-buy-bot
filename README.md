@@ -11,3 +11,5 @@ pm2 start "yarn -s buy-eth >> ./buy-eth.log"
 ```
 pm2 stop "buy-eth"
 ```
+
+DEBOUUUUT VOUS M'AVEZ MANQUE
